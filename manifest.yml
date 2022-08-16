@@ -1,0 +1,21 @@
+modules:
+  jira:entityProperty:
+    - key: entity-property-thanh
+      entityType: "issue"
+      propertyKey: thanh-entitykey
+      values:
+        - path: storyPoint
+          type: number
+        - path: name
+          type: string
+        - path: description
+          type: text
+        - path: editDate
+          type: date
+        - path: label
+          type: text
+  function:
+    - key: main
+      handler: index.run
+app:
+  id: ari:cloud:ecosystem::app/dbf19b8b-d0d2-4c11-9146-5e5c14eadd04
