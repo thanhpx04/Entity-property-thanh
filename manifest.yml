@@ -13,7 +13,7 @@ modules:
         - path: editDate
           type: date
         - path: label
-          type: text
+          type: string
   function:
     - key: main
       handler: index.run
